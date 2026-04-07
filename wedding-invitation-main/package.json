@@ -5,7 +5,7 @@
   "author": "Ju Ho Nam <jhnamnam@gmail.com> (https://juhonamnam.github.io/)",
   "license": "MIT",
   "private": true,
-  "homepage": "https://https://dyddyddl.github.io/mobInv/wedding-invitation",
+  "homepage": "https://dyddyddl.github.io/mobInv/wedding-invitation",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
