@@ -3,50 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>모바일 청첩장</title>
+  <title>김현기 ♥ 이지현의 결혼식</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <!-- 커버 -->
   <section class="cover">
-    <h1>민수 ♥ 지영</h1>
-    <p>2026년 10월 3일 토요일 오후 2시</p>
+    <h1>김현기 ♥ 이지현</h1>
+    <p>2025년 11월 2일 일요일 | 오전 11시</p>
   </section>
 
-  <section class="invite">
-    <p>
-      서로 다른 길을 걸어온 두 사람이<br>
-      이제 같은 길을 함께 걸어가려 합니다.<br><br>
-      소중한 분들을 모시고<br>
-      저희의 시작을 함께하고 싶습니다.
-    </p>
-  </section>
-
+  <!-- 예식 안내 -->
   <section class="info">
     <h2>예식 안내</h2>
-    <p>서울 ○○웨딩홀 3층</p>
-    <p>오후 2시</p>
+    <p>aT포레웨딩홀 5층 그랜드홀</p>
+    <p>서울특별시 서초구 강남대로 27</p>
   </section>
 
+  <!-- 오시는 길 -->
   <section class="map">
     <h2>오시는 길</h2>
-    <a href="https://map.kakao.com" target="_blank">
-      지도 보기
-    </a>
+    <a href="https://map.kakao.com" target="_blank">카카오 지도 보기</a>
   </section>
 
+  <!-- 갤러리 -->
   <section class="gallery">
     <h2>갤러리</h2>
-    <img src="RAZU0531.JPG">
-    <!--<img src="photo2.jpg">-->
+    <div class="images">
+      <img src="photo1.jpg" alt="사진1">
+      <img src="photo2.jpg" alt="사진2">
+      <img src="photo3.jpg" alt="사진3">
+    </div>
   </section>
 
+  <!-- 축의금 -->
+  <section class="gifts">
+    <h2>축의금 안내</h2>
+    <div class="account">
+      <p>신랑측: 신한은행 000-000-000000</p>
+      <button onclick="copyText('신한은행 000-000-000000')">복사</button>
+    </div>
+    <div class="account">
+      <p>신부측: 우리은행 0000-000-0000000</p>
+      <button onclick="copyText('우리은행 0000-000-0000000')">복사</button>
+    </div>
+  </section>
+
+  <!-- RSVP -->
   <section class="rsvp">
     <h2>참석 여부</h2>
-    <a href="여기에_구글폼_URL" target="_blank" class="btn">
-      참석 여부 전달하기
-    </a>
+    <a href="여기에_구글폼_URL" target="_blank" class="btn">참석 여부 전달하기</a>
   </section>
 
+<script src="script.js"></script>
 </body>
 </html>
